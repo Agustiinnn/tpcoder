@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+<body>
+    
+<!-- Header -->
+<header>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">inicio</a>
+            </li>
+            <li>
+                <a href="../pages/servicios.html">Servicios</a>
+
+            </li>
+           
+            <li>
+                <a href="../pages/trabajos.html#relaterno">Trabajos</a>
+            </li>
+            <li>
+                <a href="#planes">planes</a>
+            </li>
+            <li>
+                <a href="page/subpages/contactos.html">Contactos</a>
+            </li>
+            <li>
+                <a href="https://www.infobae.com/tag/coderhouse/"target=_blank>Prensa</a>
+            </li>
+    
+        </ul>
+    </nav>
+    
+
+
+
+
+</header>
+
+
+
+
+
+
+
+
+    <!-- Enlaces  absolutos | Redireccionan al usuario a un sitio externo a nuestro proyecto -->
+    <a href="https://www.google.com" target="_blank"> <!-- Las etiquetas contienen atributos | href = hiperviculo de referencia = a donde voy a redirigir al usuario? -->
+    <!-- Target con el valor blank nos permite que se abra el enlace entra pantalla-->
+        Ver mas
+    </a>
+
+    <!-- Enlaces relativos | Redirecciona al usuario a un archivo dentro de mi proyecto -->
+    <a href="pages/servicios.html">
+        Servicios
+    </a>
+
+    <!-- Enlaces interno | Redireccionar al usuario a una seccion de este mismo archivo -->
+    <a href="#Planes">  <!-- # = Simbolo de los id en programacion -->
+        Inscribirme
+    </a>
+
+    
+
+
+    <!-- Tengo que darle un identificador unico | ID = un atributo que se puede usar en todas las etiquetas -->
+    <section id="Planes">
+        <h2>Planes:</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt veritatis magni accusamus quae delectus rem animi deserunt, dolorum, sapiente, quis ipsum quidem. Repellendus neque fugit ex porro quaerat cupiditate non.</p>
+    </section>
+
+
+
+    <!-- Enlaces relaternos | Redirecciona al usuario a otro archivo dentro de mi proyecto y a una seccion especifica -->
+    <a href="pages/trabajos.html#Relaternos">
+        Ver relaternos
+    </a>
+
+<!--Elementos multimedia -->
+
+<!-- Imagenes 
+src=source= ¿Donde esta la imagen que queres mostrar en tu sitio?
+alt=
+1- Texto alternativo= Descripcion de el elemento multimedia texto alternativo,para darle a entender al usuario de que se trataba ese elemnto que no puede ver
+
+2- Posicionamiento de la imagen, cuando el usuario por imagenes en el navegador, segun la coincidencia del texto alt, la posicion en la busqueda
+
+3- Accesibilidad = Sistema de apoyo les lee la descripcion de alt -->
+<img src="imagenes/download.jpg" alt="foto del gordo haceindo ejercicio">
+
+<!-- Mapa | iframe = nos da un extracto del codigo html de otro sitio -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d53541.15765107466!2d-60.6818788805686!3d-32.99527588111984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1679010317485!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<!-- Videos -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oICxGUBndqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<video src="videos/nekenudes.gif"></video>
+
+ <!-- Audio -->
+ <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2vT4j9LNSr6IAiRmu9zbdA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+ <audio src=" audios/nekenudes.m4"></audio>
+
+
+
+
+
+</body>
+</html>
